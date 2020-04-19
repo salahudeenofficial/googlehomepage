@@ -1,0 +1,145 @@
+*{
+    border: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+header nav ul li {
+    list-style: none;
+    padding: 10px 10px;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+header nav ul li:hover  {
+    text-decoration: underline;
+
+}
+#b {
+    background-color: rgb(57, 100, 194);
+    color: white;
+    border-radius: 2.5px;
+    border-style: outset;
+    border-width: 0ch;
+    size: 10px;
+    padding: 4px;
+    position: relative;
+    bottom: 4px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+img {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+    width: 200x;
+
+}
+.pp {
+    position: absolute;
+    margin-top: 75px;
+} 
+#pp {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: rgba(32, 14, 14, 0.685);
+    border-width: 0.5px;
+    border-style: solid;
+    opacity: .20;
+}
+.search {
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+     
+
+    margin-top: 130px;
+
+}
+#click:hover {
+    box-shadow: rgba(141, 138, 138, 0.089);
+}
+#click {
+    background-color: rgba(141, 138, 138, 0.089);
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    height: 35px;
+    border-width: 0;
+    width: 125px;
+
+    
+}
+    
+
+
+#lucky {
+    
+    background-color: rgba(141, 138, 138, 0.116);
+    border-width: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    height: 35px;
+    width: 125px;
+ 
+
+}
+#lucky:hover {
+    box-shadow: rgba(141, 138, 138, 0.116);
+}
+
+footer {
+    border-width: 5px;
+    border-color:solid rgba(32, 14, 14, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(141, 138, 138, 0.39);
+    opacity: .50;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0;
+    
+
+}
+footer ul li {
+    padding: 10px 10px ;
+    left: 0;
+}
